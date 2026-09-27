@@ -1,0 +1,975 @@
+{
+  "checked_at": "2026-09-27T19:29:39.310665+00:00",
+  "checked_before_implementation": true,
+  "display_name": "JeyTech Order Transfer QR for WooCommerce",
+  "base_name": "Order Transfer QR",
+  "slug": "jeytech-order-transfer-qr",
+  "namespace": "JeyTech\\OrderTransferQR",
+  "decision": "No public namesake found; chosen for implementation. WordPress slug assignment still pending.",
+  "wordpress_searches": [
+    {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=Order+Transfer+QR&request%5Bper_page%5D=100&request%5Bpage%5D=1&request%5Bfields%5D%5Bsections%5D=0",
+      "page": 1,
+      "total": 221,
+      "plugins": [
+        {
+          "name": "QR payment for WooCommerce",
+          "slug": "wc-qr-payment"
+        },
+        {
+          "name": "Masteriyo LMS – LMS Course Builder, Quizzes & Certificates",
+          "slug": "learning-management-system"
+        },
+        {
+          "name": "Direct Payments for WooCommerce – Bank Transfer, Mobile Money, Crypto and Peer-to-Peer (P2P) Payments",
+          "slug": "direct-payments-for-woocommerce"
+        },
+        {
+          "name": "Tutor LMS – eLearning and online course solution",
+          "slug": "tutor"
+        },
+        {
+          "name": "Paystack WooCommerce Payment Gateway",
+          "slug": "woo-paystack"
+        },
+        {
+          "name": "sqrip.ch",
+          "slug": "sqrip-swiss-qr-invoice"
+        },
+        {
+          "name": "Event Booking Manager for WooCommerce – Sell Tickets, Event Registration, RSVP & Event Calendar",
+          "slug": "mage-eventpress"
+        },
+        {
+          "name": "Coupon Affiliates – Affiliate Plugin for WooCommerce",
+          "slug": "woo-coupon-usage"
+        },
+        {
+          "name": "Czech QR Payments for WooCommerce",
+          "slug": "czech-qr-code-bank-transfer-payment-for-woocommerce"
+        },
+        {
+          "name": "EAN Barcode Generator for WooCommerce: UPC, ISBN & GTIN Inventory",
+          "slug": "ean-for-woocommerce"
+        },
+        {
+          "name": "toyyibPay for WooCommerce",
+          "slug": "toyyibpay-for-woocommerce"
+        },
+        {
+          "name": "Wallet Up – Cash App, Venmo, PayPal, Zelle & QR Code Payments",
+          "slug": "wallet-up"
+        },
+        {
+          "name": "Eventin – Events Calendar, Tickets, Registration, Booking & WooCommerce",
+          "slug": "wp-event-solution"
+        },
+        {
+          "name": "Checkout Gateway for IRIS",
+          "slug": "checkout-gateway-iris"
+        },
+        {
+          "name": "ABC Crypto Checkout",
+          "slug": "payerurl-crypto-currency-payment-gateway-for-woocommerce"
+        },
+        {
+          "name": "CHIP for WooCommerce",
+          "slug": "chip-for-woocommerce"
+        },
+        {
+          "name": "LearnPress – WordPress LMS Plugin for Create and Sell Online Courses",
+          "slug": "learnpress"
+        },
+        {
+          "name": "GoPay for WooCommerce",
+          "slug": "gopay-gateway"
+        },
+        {
+          "name": "Clicks Manual Payment Gateways for Pakistan",
+          "slug": "clicks-manual-payment-gateways-pakistan"
+        },
+        {
+          "name": "SEPA QR-Code for Woocommerce",
+          "slug": "sepa-qr-code-for-woocommerce"
+        },
+        {
+          "name": "Event Tickets Manager for WooCommerce",
+          "slug": "event-tickets-manager-for-woocommerce"
+        },
+        {
+          "name": "Edutain Certificate Validator – Certificate Verification, QR Code & Digital Credentials",
+          "slug": "edutain-certificate-validator"
+        },
+        {
+          "name": "Ebook Store",
+          "slug": "ebook-store"
+        },
+        {
+          "name": "Event Tickets with Ticket Scanner",
+          "slug": "event-tickets-with-ticket-scanner"
+        },
+        {
+          "name": "Post SMTP – Complete Email Delivery and SMTP Solution with Email Logs, Alerts, Backup SMTP & Mobile App",
+          "slug": "post-smtp"
+        },
+        {
+          "name": "Ultimate Gift Cards for WooCommerce",
+          "slug": "woo-gift-cards-lite"
+        },
+        {
+          "name": "Easy Invoice – Invoice Generator, PDF Quotes & Payments",
+          "slug": "easy-invoice"
+        },
+        {
+          "name": "Wallet System for WooCommerce – Digital Wallet, Buy Now Pay Later (BNPL), Instant Cashback, Referral program, Partial & Subscription Payments",
+          "slug": "wallet-system-for-woocommerce"
+        },
+        {
+          "name": "SmartQR Payment Gateway for BanglaQR",
+          "slug": "smartqr-payment-gateway-banglaqr"
+        },
+        {
+          "name": "Live Copy Paste for Elementor – Cross Domain Copy Paste & Page Duplicator",
+          "slug": "live-copy-paste"
+        },
+        {
+          "name": "Track Orders for WooCommerce – Multi Carrier WooCommerce Shipping",
+          "slug": "track-orders-for-woocommerce"
+        },
+        {
+          "name": "PixelcraftDev Confirm Payment for Woocommerce",
+          "slug": "pixelcraftdev-confirm-payment-for-woocommerce"
+        },
+        {
+          "name": "Travelly – Tour & Travel Booking Manager for WooCommerce",
+          "slug": "tour-booking-manager"
+        },
+        {
+          "name": "Yedpay for WooCommerce",
+          "slug": "yedpay-for-woocommerce"
+        },
+        {
+          "name": "Smjrifle QR Payments",
+          "slug": "smjrifle-qr-payments"
+        },
+        {
+          "name": "Multi CryptoCurrency Payments",
+          "slug": "multi-crypto-currency-payment"
+        },
+        {
+          "name": "Milo Subscriptions – Subscriptions for WooCommerce and Recurring Payments",
+          "slug": "milosubscriptions"
+        },
+        {
+          "name": "RepairBuddy – Repair Shop CRM & Booking Plugin for WordPress",
+          "slug": "computer-repair-shop"
+        },
+        {
+          "name": "Split Pay – Stripe Connect Split Payments & Multi-Vendor Marketplace for WooCommerce & FluentCart",
+          "slug": "bsd-woo-stripe-connect-split-pay"
+        },
+        {
+          "name": "GemBooking – Appointment Booking, Booking Calendar & Reservations",
+          "slug": "gembooking"
+        },
+        {
+          "name": "The School Management – Education & Learning ERP",
+          "slug": "school-management-system"
+        },
+        {
+          "name": "Nomba Payment Gateway for WooCommerce",
+          "slug": "wc-nomba-gateway"
+        },
+        {
+          "name": "Cryptocurrency Payment Gateway for WordPress & WooCommerce by CryptoPay",
+          "slug": "cryptopay-wc-lite"
+        },
+        {
+          "name": "WP Helper Premium",
+          "slug": "wp-helper-lite"
+        },
+        {
+          "name": "MultiSafepay plugin for WooCommerce",
+          "slug": "multisafepay"
+        },
+        {
+          "name": "MyCryptoCheckout – Bitcoin, Ethereum, and 100+ altcoins for WooCommerce",
+          "slug": "mycryptocheckout"
+        },
+        {
+          "name": "Freight Integration for Woocommerce to Profrakt and Logistra by WildRobot",
+          "slug": "logistra-woocommerce-integrasjon-fra-wildrobot-app"
+        },
+        {
+          "name": "Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI",
+          "slug": "everest-forms"
+        },
+        {
+          "name": "Raffle for WooCommerce",
+          "slug": "raffle-for-woocommerce"
+        },
+        {
+          "name": "Knit Pay – Cashfree, Instamojo, Razorpay, PayPal and more",
+          "slug": "knit-pay"
+        },
+        {
+          "name": "Seris Order Manager (PDF Receipts and Packing Slips)",
+          "slug": "seris-order-manager"
+        },
+        {
+          "name": "GR UPN payment form",
+          "slug": "gr-upn-payment-form"
+        },
+        {
+          "name": "Payrexx Payment Gateway for WooCommerce",
+          "slug": "woo-payrexx-gateway"
+        },
+        {
+          "name": "Payment Gateway of Stripe for WooCommerce",
+          "slug": "payment-gateway-stripe-and-woocommerce-integration"
+        },
+        {
+          "name": "Ticket Tailor — Event Ticketing & Registration",
+          "slug": "ticket-tailor"
+        },
+        {
+          "name": "Rizentechno Manual Payment Methods for WooCommerce",
+          "slug": "rizentechno-manual-payment-methods-woocommerce"
+        },
+        {
+          "name": "Serial Codes Generator and Validator with WooCommerce Support",
+          "slug": "serial-codes-generator-and-validator"
+        },
+        {
+          "name": "Key Manager – Effortlessly sell license keys, game keys, pin codes, gift cards, and more with WooCommerce",
+          "slug": "wc-key-manager"
+        },
+        {
+          "name": "Venuera – Event Tickets for WooCommerce",
+          "slug": "venuera"
+        },
+        {
+          "name": "PromptPay for WooCommerce",
+          "slug": "qr-payments-with-promptpay-for-woocommerce"
+        },
+        {
+          "name": "Essential Real Estate",
+          "slug": "essential-real-estate"
+        },
+        {
+          "name": "Checkout with Zelle on Woocommerce",
+          "slug": "wc-zelle"
+        },
+        {
+          "name": "Payssion Plugin for Woocommerce",
+          "slug": "payssion-international-payment-gateway"
+        },
+        {
+          "name": "tatrapay+ Payment Gateway",
+          "slug": "tatrapay-payment-gateway"
+        },
+        {
+          "name": "Jovvie Point of Sale POS for WooCommerce",
+          "slug": "point-of-sale-pos-woocommerce"
+        },
+        {
+          "name": "BitPay Checkout for WooCommerce",
+          "slug": "bitpay-checkout-for-woocommerce"
+        },
+        {
+          "name": "Octobyte IRIS Payments for WooCommerce",
+          "slug": "offline-qr-payment-gateway-iris"
+        },
+        {
+          "name": "Divit Payment Gateway",
+          "slug": "divit-rewards-and-payment-gateway"
+        },
+        {
+          "name": "Live Event Seating Lite –  Seating Chart, Floor Plan, RSVP & Event Ticket",
+          "slug": "live-event-seating-lite"
+        },
+        {
+          "name": "Bitcoin payment for WooCommerce",
+          "slug": "coinsnap-for-woocommerce"
+        },
+        {
+          "name": "Novalnet Payment Gateway for WooCommerce",
+          "slug": "woocommerce-novalnet-gateway"
+        },
+        {
+          "name": "Affiliate Program Suite — SliceWP Affiliates",
+          "slug": "slicewp"
+        },
+        {
+          "name": "myEasyCompta – Invoicing, Accounting & Quotes Plugin for WordPress",
+          "slug": "my-easy-compta"
+        },
+        {
+          "name": "Pay4All Shop",
+          "slug": "pay4all-form"
+        },
+        {
+          "name": "Receive customer payments on Woocommerce",
+          "slug": "momo-venmo"
+        },
+        {
+          "name": "ThemePrime ManualPay for WooCommerce",
+          "slug": "themeprime-manualpay"
+        },
+        {
+          "name": "bSecure – Your Universal Checkout",
+          "slug": "bsecure"
+        },
+        {
+          "name": "MakeMeHappy QR Code",
+          "slug": "makemehappy-qr-code"
+        },
+        {
+          "name": "Money Space",
+          "slug": "money-space"
+        },
+        {
+          "name": "NoMorePass Login",
+          "slug": "nomorepass-forget-your-passwords"
+        },
+        {
+          "name": "EgyDevInfo Manual Transfer Gateway for InstaPay",
+          "slug": "egydevinfo-manual-transfer-gateway-for-instapay"
+        },
+        {
+          "name": "Appointment Booking Calendar & Scheduling – Zoe Booking",
+          "slug": "zoebooking"
+        },
+        {
+          "name": "Duitku Payment Gateway",
+          "slug": "duitku-social-payment-gateway"
+        },
+        {
+          "name": "Aircash for WooCommerce",
+          "slug": "aircash-for-woocommerce"
+        },
+        {
+          "name": "Interswitch Payment Gateway Woocommerce",
+          "slug": "quickteller-business-payment"
+        },
+        {
+          "name": "fuentes7 QR Gateway for WooCommerce",
+          "slug": "fuentes7-qr-gateway-for-woocommerce"
+        },
+        {
+          "name": "Pagou – Payments for WooCommerce",
+          "slug": "pagou-payments-for-woocommerce"
+        },
+        {
+          "name": "Crypto.com Pay Checkout for WooCommerce",
+          "slug": "crypto-com-pay-checkout-for-woocommerce"
+        },
+        {
+          "name": "SMS8 – SMS Gateway for WooCommerce, Order Notifications, OTP Login & 2FA via Android",
+          "slug": "sms8-io"
+        },
+        {
+          "name": "Vachr Short-Term Rental Reservations",
+          "slug": "vachr-short-term-rental-reservations"
+        },
+        {
+          "name": "VERIFIED Crypto Checkout – Card to USDC WooCommerce Payment Gateway",
+          "slug": "verified-crypto-checkout"
+        },
+        {
+          "name": "QROVA QR Codes & Girocode",
+          "slug": "qrova-qr-codes-girocode"
+        },
+        {
+          "name": "Pronamic Pay",
+          "slug": "pronamic-ideal"
+        },
+        {
+          "name": "Pachacutec Multiple QR Payments for WooCommerce",
+          "slug": "pachacutec-multiple-qr-payments-for-woocommerce"
+        },
+        {
+          "name": "WebDide Card-to-Card Payment Verification for Shetab",
+          "slug": "webdide-card-to-card-verification"
+        },
+        {
+          "name": "QR platba bankovním převodem pro WooCommerce – SPAYD a Pay by square",
+          "slug": "bankglyph-qr-payments"
+        },
+        {
+          "name": "PayPro Gateways – WooCommerce",
+          "slug": "paypro-gateways-woocommerce"
+        },
+        {
+          "name": "Eventnetic – Event Tickets, Booking and Calendar",
+          "slug": "eventnetic"
+        },
+        {
+          "name": "Transferencias para Bre-B",
+          "slug": "transferencias-breb"
+        },
+        {
+          "name": "WP Weixin",
+          "slug": "wp-weixin"
+        }
+      ],
+      "exact_or_slug_matches": []
+    },
+    {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=Order+Transfer+QR&request%5Bper_page%5D=100&request%5Bpage%5D=2&request%5Bfields%5D%5Bsections%5D=0",
+      "page": 2,
+      "total": 221,
+      "plugins": [
+        {
+          "name": "Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress",
+          "slug": "acadlix"
+        },
+        {
+          "name": "DOKU Payment",
+          "slug": "doku-payment"
+        },
+        {
+          "name": "Vietnam Store Toolkit for WooCommerce",
+          "slug": "yoohw-vietnam-store-tools"
+        },
+        {
+          "name": "Bitcoin and Altcoin Wallets",
+          "slug": "wallets"
+        },
+        {
+          "name": "Gyta Buyback | WooCommerce Product Trade-In and Buy Back System",
+          "slug": "gyta-buyback"
+        },
+        {
+          "name": "Oliver POS – WooCommerce POS for iPhone, iPad & Android",
+          "slug": "oliver-pos"
+        },
+        {
+          "name": "Multipurpose Ticket Booking Manager (Bus/Train/Ferry/Boat/Shuttle)",
+          "slug": "bus-booking-manager"
+        },
+        {
+          "name": "AfriDirect Payment",
+          "slug": "afridirect-payment"
+        },
+        {
+          "name": "WCP Blockchain Authenticity Certificates",
+          "slug": "wcp-blockchain-authenticity-certificates"
+        },
+        {
+          "name": "AMSites Payment Gateway",
+          "slug": "amsites-payment-gateway"
+        },
+        {
+          "name": "Engraver – Personalize and Customize WooCommerce Products",
+          "slug": "digages-engraver"
+        },
+        {
+          "name": "TicketPayGo Lite",
+          "slug": "ticketpaygo-lite"
+        },
+        {
+          "name": "Tazapay Checkout Payment Gateway",
+          "slug": "tazapay"
+        },
+        {
+          "name": "SEPA QR-Code for Woocommerce (GDPR-compliant)",
+          "slug": "mxp-sepa-qr-code-addon-for-woocommerce"
+        },
+        {
+          "name": "ZIC Auto Pay – Chuyển khoản QR, xử lý đơn hàng tự động for WooCommerce",
+          "slug": "zic-auto-pay"
+        },
+        {
+          "name": "Bytenet Static QR Payments with IRIS for WooCommerce",
+          "slug": "payment-gateway-iris-for-woocommerce"
+        },
+        {
+          "name": "payabl. Payments Gateway",
+          "slug": "powercash21-payments-gateway"
+        },
+        {
+          "name": "xMoney Crypto for WooCommerce",
+          "slug": "utrust-for-woocommerce"
+        },
+        {
+          "name": "Events and Tickets with QR Check-in",
+          "slug": "bitforgenet-guest-tickets"
+        },
+        {
+          "name": "PDF Gift Cards for WooCommerce",
+          "slug": "kafestudio-pdf-gift-cards"
+        },
+        {
+          "name": "CHIP for FluentCart",
+          "slug": "chip-for-fluent-cart"
+        },
+        {
+          "name": "WebHosting4U Secure Card Gateway for ePay Paycenter (Piraeus Bank)",
+          "slug": "secure-card-gateway-for-epay-paycenter-piraeus-bank"
+        },
+        {
+          "name": "Novalnet Payment Gateway for Easy Digital Downloads",
+          "slug": "easy-digital-downloads-payment-gateway-by-novalnet"
+        },
+        {
+          "name": "Mobipaid",
+          "slug": "mobipaid"
+        },
+        {
+          "name": "UNIVERSAM",
+          "slug": "universam-demo"
+        },
+        {
+          "name": "CatCode IBAN Smart Invoice",
+          "slug": "catcode-iban-smart-invoice"
+        },
+        {
+          "name": "AAM Partial COD & Mobile Payment for WooCommerce",
+          "slug": "aam-partial-cod"
+        },
+        {
+          "name": "Recaudos para Nequi",
+          "slug": "recaudos-nequi"
+        },
+        {
+          "name": "SendBSV BSV Payments for WooCommerce",
+          "slug": "bsvanon-bitcoin-sv-payments"
+        },
+        {
+          "name": "BigVNN Payment Gateway for VietQR",
+          "slug": "bigvnn-vietqr-payment-gateway"
+        },
+        {
+          "name": "Fiscomm PURS E-Fiscalisation",
+          "slug": "fiscomm-purs-e-fiscalisation"
+        },
+        {
+          "name": "Clicks Manual Payment Gateways for Bangladesh",
+          "slug": "clicks-manual-payment-gateways-bangladesh"
+        },
+        {
+          "name": "Transferime",
+          "slug": "transferime"
+        },
+        {
+          "name": "Tellbill for WooCommerce",
+          "slug": "tellbill-for-woocommerce"
+        },
+        {
+          "name": "Bictorys Payment Gateway for WooCommerce",
+          "slug": "bictorys-payment-gateway-for-woocommerce"
+        },
+        {
+          "name": "USDT Invoice – Crypto Payments for USDT",
+          "slug": "khaled-hisham-crypto-payments-usdt"
+        },
+        {
+          "name": "CreatesWowTech Affiliate Program for WooCommerce",
+          "slug": "createswowtech-affiliate-program-for-woocommerce"
+        },
+        {
+          "name": "Payment4 Crypto Payment gateway",
+          "slug": "payment4-crypto-payment-gateway"
+        },
+        {
+          "name": "Yotta Pay Payment Gateway",
+          "slug": "yottapay-payment-gateway"
+        },
+        {
+          "name": "LibraX Invoice",
+          "slug": "librax-invoice"
+        },
+        {
+          "name": "HENO Tingee Gateway for WooCommerce",
+          "slug": "heno-tingee-gateway-for-woocommerce"
+        },
+        {
+          "name": "Super Duper Crypto Gateway",
+          "slug": "super-duper-crypto-gateway"
+        },
+        {
+          "name": "CIHWEB Anywhere Cart",
+          "slug": "cihweb-anywhere-cart"
+        },
+        {
+          "name": "Emboss – PDF Invoices and Packing Slips for WooCommerce",
+          "slug": "emboss-pdf-invoices-for-woocommerce"
+        },
+        {
+          "name": "N-Qube Donations",
+          "slug": "n-qube-donations"
+        },
+        {
+          "name": "YeePOS – PWA Point of Sale for WooCommerce",
+          "slug": "yeepos"
+        },
+        {
+          "name": "CryptocurrencyCheckout Woocommerce Gateway",
+          "slug": "cryptocurrencycheckout-woocommerce-gateway"
+        },
+        {
+          "name": "Seat & Table Booking for WooCommerce",
+          "slug": "seat-table-booking-for-woocommerce"
+        },
+        {
+          "name": "GoFactoX E-Invoicing for WooCommerce",
+          "slug": "gofactox-e-invoicing-for-woocommerce"
+        },
+        {
+          "name": "Verifactu para WooCommerce (Finseed)",
+          "slug": "finseed-facturas-verifactu"
+        },
+        {
+          "name": "Dream Online Ticket Selling",
+          "slug": "dream-online-ticket-selling"
+        },
+        {
+          "name": "SSV SmartPay Pay By Bank",
+          "slug": "ssv-smart-pay-payment-gateway"
+        },
+        {
+          "name": "PayzCore for WooCommerce",
+          "slug": "payzcore-for-woocommerce"
+        },
+        {
+          "name": "Smooth Entree",
+          "slug": "smooth-entree"
+        },
+        {
+          "name": "FakturFlow – E-Invoicing for KSeF",
+          "slug": "fakturflow-ksef"
+        },
+        {
+          "name": "CNX Medical Lite – Clinic EHR & Appointments",
+          "slug": "cnxmedical"
+        },
+        {
+          "name": "Devs Accounting – Simple Accounting and Invoicing Solution",
+          "slug": "devs-accounting"
+        },
+        {
+          "name": "Cryptoway Payments – Crypto Payment Gateway for WooCommerce",
+          "slug": "cryptoway-payments"
+        },
+        {
+          "name": "Omise Payments",
+          "slug": "omise"
+        },
+        {
+          "name": "OmnifyWP eCommerce",
+          "slug": "omnifywp-ecommerce"
+        },
+        {
+          "name": "Tickets & Passes for WooCommerce",
+          "slug": "tickets-passes-for-woocommerce"
+        },
+        {
+          "name": "ForgeLayer Crypto Payments for WooCommerce",
+          "slug": "forgelayer-crypto-payments-for-woocommerce"
+        },
+        {
+          "name": "ForumPay Crypto Payments for WooCommerce",
+          "slug": "forumpay-crypto-payments"
+        },
+        {
+          "name": "MultiWare Engine Lite – Multi Location Inventory Management for WooCommerce",
+          "slug": "multiware-engine-lite"
+        },
+        {
+          "name": "Web22 Checkout",
+          "slug": "web22-checkout"
+        },
+        {
+          "name": "HarborBook",
+          "slug": "harborbook"
+        },
+        {
+          "name": "Online SMS Notifications",
+          "slug": "online-sms-notifications"
+        },
+        {
+          "name": "Bitcoin payment for GiveWP",
+          "slug": "coinsnap-for-givewp"
+        },
+        {
+          "name": "D613 Pay – Zelle, Venmo, PayPal & Cash App Payments for WooCommerce",
+          "slug": "d613-pay"
+        },
+        {
+          "name": "ManiPay Manual Payment Gateway for FluentCart",
+          "slug": "manipay-manual-payment-for-fluentcart"
+        },
+        {
+          "name": "FlexiPay Gateway for WooCommerce",
+          "slug": "flexipay-gateway"
+        },
+        {
+          "name": "ABP Transport Booking",
+          "slug": "abp-transport-booking"
+        },
+        {
+          "name": "Saga Payments for WooCommerce",
+          "slug": "saga-payments"
+        },
+        {
+          "name": "Cryptoway – Crypto Payment Gateway for Easy Digital Downloads",
+          "slug": "cryptoway-edd"
+        },
+        {
+          "name": "PayXra for ProfilePress",
+          "slug": "payxra-for-profilepress"
+        },
+        {
+          "name": "GoRoute E-Invoicing for WooCommerce – Peppol invoices, credit notes, delivery status",
+          "slug": "goroute-e-invoicing-for-woocommerce"
+        },
+        {
+          "name": "STRABL – A checkout solution",
+          "slug": "strabl-a-checkout-solution"
+        },
+        {
+          "name": "Devdraft Payment",
+          "slug": "devdraft-payment"
+        },
+        {
+          "name": "ConferenceManager",
+          "slug": "conferencemanager"
+        },
+        {
+          "name": "DEED Pay for WooCommerce",
+          "slug": "deed-pay-woo"
+        },
+        {
+          "name": "Sovereign Settle – Stablecoin Gateway for WooCommerce",
+          "slug": "sovereign-settle-stablecoin-gateway"
+        },
+        {
+          "name": "Bitcoin payment for WPForms",
+          "slug": "coinsnap-for-wpforms"
+        },
+        {
+          "name": "Bitcoin payment for Gravity Forms",
+          "slug": "coinsnap-for-gravity-forms"
+        },
+        {
+          "name": "Startbutton for WooCommerce",
+          "slug": "startbutton-for-woocommerce"
+        },
+        {
+          "name": "Bitcoin payment for Ninja Forms",
+          "slug": "coinsnap-for-ninja-forms"
+        },
+        {
+          "name": "Bitcoin Payment for Contact Form 7",
+          "slug": "coinsnap-for-contact-form-7"
+        },
+        {
+          "name": "Xendit Payment",
+          "slug": "woo-xendit-virtual-accounts"
+        },
+        {
+          "name": "Retail POS for WooCommerce – Point of Sale, Barcode Scanner & Receipts",
+          "slug": "eren-labs-retail-pos-for-woocommerce"
+        },
+        {
+          "name": "Noesia Smart Waiter",
+          "slug": "noesia-smart-waiter"
+        },
+        {
+          "name": "Donatico – Stripe Donations & Recurring Giving",
+          "slug": "donatico"
+        },
+        {
+          "name": "Ether and ERC20 tokens WooCommerce Payment Gateway",
+          "slug": "ether-and-erc20-tokens-woocommerce-payment-gateway"
+        },
+        {
+          "name": "VDot Crypto Gateway for WooCommerce",
+          "slug": "vdot-crypto-gateway"
+        },
+        {
+          "name": "Gravity Forms payment plugin – Novalnet AG",
+          "slug": "novalnet-payment-add-on-for-gravity-forms"
+        },
+        {
+          "name": "EURD Payments for WooCommerce",
+          "slug": "eurd-payments-wc"
+        },
+        {
+          "name": "CHIP for Fluent Forms",
+          "slug": "chip-for-fluent-forms"
+        },
+        {
+          "name": "scan2payme",
+          "slug": "scan2payme"
+        },
+        {
+          "name": "Anti-Bot, Anti-Spam & Fraud Protection for WooCommerce – RealNode",
+          "slug": "realnode-anti-scalper"
+        },
+        {
+          "name": "RelayPay Checkout",
+          "slug": "relaypay"
+        },
+        {
+          "name": "TrustistEcommerce",
+          "slug": "trustistecommerce"
+        },
+        {
+          "name": "Swiftpay by V Payment Gateway for woocommerce",
+          "slug": "swiftpay-by-v-payment-gateway-for-woocommerce"
+        }
+      ],
+      "exact_or_slug_matches": []
+    },
+    {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=Order+Transfer+QR&request%5Bper_page%5D=100&request%5Bpage%5D=3&request%5Bfields%5D%5Bsections%5D=0",
+      "page": 3,
+      "total": 221,
+      "plugins": [
+        {
+          "name": "WPEM – REST API",
+          "slug": "wpem-rest-api"
+        },
+        {
+          "name": "PROFI-FOTOS-online.com | Online-Shop für Fotografen",
+          "slug": "profi-fotos-online"
+        },
+        {
+          "name": "Fleet Agent Site Manager – Securely Connects Your Sites to a WPMgr Dashboard",
+          "slug": "fleet-agent-site-manager"
+        },
+        {
+          "name": "Fena Payment Gateway for WooCommerce",
+          "slug": "fena-ecommerce"
+        },
+        {
+          "name": "Ivorypay Payment Gateway for WooCommerce",
+          "slug": "ivorypay"
+        },
+        {
+          "name": "SteadyDevs Venue Booking",
+          "slug": "steadydevs-venue-booking"
+        },
+        {
+          "name": "Paysley",
+          "slug": "paysley"
+        },
+        {
+          "name": "Pockyt – Accept Alternative Payments",
+          "slug": "woo-yuansfer"
+        },
+        {
+          "name": "mTasku payment for WooCommerce",
+          "slug": "mtasku-payment-for-woocommerce"
+        },
+        {
+          "name": "Webphone",
+          "slug": "webphone"
+        },
+        {
+          "name": "BitPay Checkout for Easy Digital Downloads",
+          "slug": "bitpay-checkout-for-easy-digital-downloads"
+        },
+        {
+          "name": "ProSolution WP Client",
+          "slug": "prosolution-wp-client"
+        },
+        {
+          "name": "Bitfinex Pay",
+          "slug": "bitfinex-pay"
+        },
+        {
+          "name": "WooCommerce PayPal Here Payment Gateway",
+          "slug": "woocommerce-paypal-here-gateway"
+        },
+        {
+          "name": "Quick Payment By UPI",
+          "slug": "quick-payment-by-upi"
+        },
+        {
+          "name": "Via.Delivery: Shipping service for WooCommerce",
+          "slug": "via-delivery-us"
+        },
+        {
+          "name": "GetLoy payment gateway for WooCommerce (supports iPay88, PayWay and Pi Pay)",
+          "slug": "wc-getloy-gateway"
+        },
+        {
+          "name": "Dentacoin Payment Gateway for WooCommerce",
+          "slug": "wc-dentacoin-payment-gateway"
+        },
+        {
+          "name": "Nextypay",
+          "slug": "nexty-payment"
+        },
+        {
+          "name": "StabilityShares Payments for WooCommerce",
+          "slug": "stabilityshares-payments-for-woocommerce"
+        },
+        {
+          "name": "Templecoin Payments for WooCommerce",
+          "slug": "templecoin-payments-for-woocommerce"
+        }
+      ],
+      "exact_or_slug_matches": []
+    }
+  ],
+  "slug_checks": {
+    "jeytech-order-transfer-qr": {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-order-transfer-qr",
+      "http_status": 404,
+      "data": {
+        "error": "Plugin not found."
+      }
+    },
+    "order-transfer-qr": {
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=order-transfer-qr",
+      "http_status": 404,
+      "data": {
+        "error": "Plugin not found."
+      }
+    }
+  },
+  "web_queries": [
+    "\"Order Transfer QR\"",
+    "\"JeyTech Order Transfer QR for WooCommerce\"",
+    "\"OrderTransfer\" \"QR\"",
+    "\"Order Transfer QR\" plugin WordPress"
+  ],
+  "web_findings": "No product with the exact chosen name found. Unrelated order transfer features were returned.",
+  "alternatives": [
+    {
+      "name": "ScanTransfer",
+      "decision": "Rejected: existing QR file-transfer software",
+      "source": "https://scantransfer.net/"
+    },
+    {
+      "name": "Bank Transfer QR Guard",
+      "decision": "Original working title replaced with the more specific Order Transfer QR; no exact collision claimed."
+    }
+  ],
+  "existing_market": [
+    {
+      "name": "SEPA QR-Code for Woocommerce",
+      "slug": "sepa-qr-code-for-woocommerce",
+      "active_installs": 100,
+      "last_updated": "2025-10-02"
+    },
+    {
+      "name": "SEPA QR-Code for Woocommerce (GDPR-compliant)",
+      "slug": "mxp-sepa-qr-code-addon-for-woocommerce",
+      "active_installs": 200,
+      "last_updated": "2023-08-03"
+    },
+    {
+      "name": "QR payment for WooCommerce",
+      "slug": "wc-qr-payment",
+      "active_installs": 400,
+      "last_updated": "2026-05-21"
+    }
+  ],
+  "submission_limit_source": "https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-many-plugins-can-i-submit-for-review-at-a-time",
+  "submission_status": "Not submitted: Safety Data by Brand is already awaiting review."
+}

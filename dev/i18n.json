@@ -1,0 +1,21 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "steps": [
+    {
+      "step": "wp-cli",
+      "command": "wp i18n make-pot /wordpress/wp-content/plugins/jeytech-order-transfer-qr /wordpress/wp-content/plugins/jeytech-order-transfer-qr/languages/jeytech-order-transfer-qr.pot --slug=jeytech-order-transfer-qr --domain=jeytech-order-transfer-qr --exclude=dev,bin,node_modules,dist,.wordpress-org,vendor"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp i18n make-mo /wordpress/wp-content/plugins/jeytech-order-transfer-qr/languages"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp i18n make-php /wordpress/wp-content/plugins/jeytech-order-transfer-qr/languages"
+    }
+  ]
+}

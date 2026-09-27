@@ -1,0 +1,68 @@
+[
+  {
+    "file": ".test-hpos-utf8.png",
+    "payloadBytes": 81,
+    "dimensions": [
+      270,
+      270
+    ],
+    "decodedExactBytes": true,
+    "quietZone": 4,
+    "pngCrc": true
+  },
+  {
+    "file": ".test-hpos-boundary331.png",
+    "payloadBytes": 331,
+    "dimensions": [
+      462,
+      462
+    ],
+    "decodedExactBytes": true,
+    "quietZone": 4,
+    "pngCrc": true
+  },
+  {
+    "file": ".test-hpos-greek.png",
+    "payloadBytes": 90,
+    "dimensions": [
+      294,
+      294
+    ],
+    "decodedExactBytes": true,
+    "quietZone": 4,
+    "pngCrc": true
+  },
+  {
+    "file": ".test-posts-utf8.png",
+    "payloadBytes": 81,
+    "dimensions": [
+      270,
+      270
+    ],
+    "decodedExactBytes": true,
+    "quietZone": 4,
+    "pngCrc": true
+  },
+  {
+    "file": ".test-posts-boundary331.png",
+    "payloadBytes": 331,
+    "dimensions": [
+      462,
+      462
+    ],
+    "decodedExactBytes": true,
+    "quietZone": 4,
+    "pngCrc": true
+  },
+  {
+    "file": ".test-posts-greek.png",
+    "payloadBytes": 90,
+    "dimensions": [
+      294,
+      294
+    ],
+    "decodedExactBytes": true,
+    "quietZone": 4,
+    "pngCrc": true
+  }
+]

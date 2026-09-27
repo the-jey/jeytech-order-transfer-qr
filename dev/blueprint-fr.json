@@ -1,0 +1,40 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "7.1.2"
+  },
+  "landingPage": "/wp-admin/admin.php?page=jeytech-otqr",
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://downloads.wordpress.org/plugin/woocommerce.11.1.2.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp wc hpos enable"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "jeytech-order-transfer-qr/jeytech-order-transfer-qr.php"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp language core install fr_FR --activate"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp language plugin install woocommerce fr_FR"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp eval-file /wordpress/wp-content/otqr-dev/seed.php"
+    }
+  ]
+}

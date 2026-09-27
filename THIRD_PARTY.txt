@@ -1,0 +1,15 @@
+# Third-party sources
+
+This plugin is GPL-2.0-or-later. Its bundled QR encoder uses these BSD-2-Clause components, which are compatible with that license:
+
+- [BaconQrCode 2.0.8](https://github.com/Bacon/BaconQrCode/tree/2.0.8): only `Common`, `Encoder` and `Exception` PHP classes are included. Original license: `vendor/BaconQrCode/LICENSE`.
+- [DASPRiD Enum 1.0.7](https://github.com/DASPRiD/Enum/tree/1.0.7): original license: `vendor/Enum/LICENSE`.
+
+Namespaces are scoped under `JeyTech\OrderTransferQR\Vendor` to avoid conflicts with other plugins. BaconQrCode's `Encoder::encode` adds an optional fifth `emitEci` argument, defaulting to the upstream behavior. The EPC path uses UTF-8 bytes directly and omits the redundant ECI segment, since the EPC payload declares UTF-8 in its character-set field. This preserves the maximum version-13 capacity at 331 bytes. Other encoding paths are unchanged. PNG output is implemented by this plugin with zlib, with a white four-module quiet zone and correction level M.
+
+All distributed PHP source remains readable. The development repository records upstream archive hashes, individual original file hashes, scoped file hashes and the changes in `dev/vendor-lock.json`. Nothing is downloaded at runtime.
+
+Standards used:
+
+- [EPC069-12 v3.1: payment QR data capture](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/quick-response-code-guidelines-enable-data-capture-initiation), including simultaneous readable payment details.
+- [Current SEPA geographical scope](https://www.europeanpaymentscouncil.eu/about-sepa) and EPC409-09 v8.0, including the 2025 additions and Serbia's May 2026 operational readiness.

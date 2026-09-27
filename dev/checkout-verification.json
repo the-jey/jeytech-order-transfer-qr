@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "classic",
+    "orderId": 16,
+    "amount": "19.90",
+    "imageStatus": 200,
+    "realCheckoutSubmitted": true,
+    "mail": "Local demo MU intercepts all mail. No payment processed.",
+    "fixture": "Non-stock virtual product, EUR 19.90. Stock preservation tested separately in the functional suites."
+  },
+  {
+    "kind": "blocks",
+    "orderId": 17,
+    "amount": "19.90",
+    "imageStatus": 200,
+    "realCheckoutSubmitted": true,
+    "mail": "Local demo MU intercepts all mail. No payment processed.",
+    "fixture": "Non-stock virtual product, EUR 19.90. Stock preservation tested separately in the functional suites."
+  }
+]

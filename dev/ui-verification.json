@@ -1,0 +1,48 @@
+[
+  {
+    "locale": "en",
+    "versions": {
+      "wp": "7.1.2",
+      "wc": "11.1.2",
+      "php": "8.3.33"
+    },
+    "settingsSave": true,
+    "settingsRevoke": true,
+    "disabledRevoke": true,
+    "httpPng": true,
+    "tamperedRequestsDenied": 3,
+    "confirmations": [
+      "blocks",
+      "classic"
+    ],
+    "viewports": [
+      1440,
+      390
+    ],
+    "email": "native WC HTML, captured without sending",
+    "errors": []
+  },
+  {
+    "locale": "fr",
+    "versions": {
+      "wp": "7.1.2",
+      "wc": "11.1.2",
+      "php": "8.3.33"
+    },
+    "settingsSave": true,
+    "settingsRevoke": true,
+    "disabledRevoke": true,
+    "httpPng": true,
+    "tamperedRequestsDenied": 3,
+    "confirmations": [
+      "blocks",
+      "classic"
+    ],
+    "viewports": [
+      1440,
+      390
+    ],
+    "email": "native WC HTML, captured without sending",
+    "errors": []
+  }
+]

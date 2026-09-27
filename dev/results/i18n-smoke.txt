@@ -1,0 +1,1 @@
+PASS Bundled French and English restoration from final ZIP. WordPress 6.6.2, PHP 7.4.33

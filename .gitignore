@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env*
+.DS_Store
+dev/.test-*
+dev/.plugin-check.txt
+dev/.demo-*
+dev/outputs/
+
+dev/preview-email-*

@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env*
+.distignore
+.wordpress-org
+node_modules
+dist
+dev
+bin
+package.json
+package-lock.json
+README.md

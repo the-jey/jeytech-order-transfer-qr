@@ -1,0 +1,57 @@
+PASS  Runtime WordPress/WooCommerce/PHP versions captured
+PASS  French and German IBANs, spaces and case accepted
+PASS  Wrong checksum, wrong country length and unsupported country rejected
+PASS  Exact cents and trailing zero preserved without float rounding
+PASS  Zero, negative, over-limit, exponent and fractional cent rejected
+PASS  EEA beneficiary may omit BIC
+PASS  Non-EEA beneficiary requires BIC
+PASS  Malformed BIC and newline beneficiary rejected
+PASS  Overlong reference and separator injection rejected
+PASS  EPC002 UTF-8 payload has exact amount, empty RF field and no trailing LF
+PASS  331-byte multibyte boundary accepted, 332 bytes rejected
+PASS  PNG generated for utf8 with no GD/Imagick
+PASS  PNG generated for boundary331 with no GD/Imagick
+PASS  PNG generated for greek with no GD/Imagick
+PASS  Real BACS on-hold EUR order receives exact data
+PASS  HTML contains escaped beneficiary, readable IBAN/amount/reference and hosted PNG
+PASS  Plain text preserves raw ampersand without HTML
+PASS  Rendering does not change order status, total or stock
+PASS  Correct signed link authorized
+PASS  Forged, altered expiry and expired links denied
+PASS  Signature cannot be reused for another order
+PASS  Changing total revokes the old image link
+PASS  No QR or image for status processing
+PASS  No QR or image for status completed
+PASS  No QR or image for status cancelled
+PASS  No QR or image for status refunded
+PASS  No QR or image for status failed
+PASS  No QR or image for status pending
+PASS  Non-EUR order omitted
+PASS  Other payment methods omitted
+PASS  Reordering accounts preserves beneficiary and valid link
+PASS  Changing selected account requires reselection and revokes link
+PASS  Per-order account removal omits QR
+PASS  Bank field filters receive all five native fields and their values
+PASS  Changed displayed IBAN never contradicts QR
+PASS  Changing reference revokes old URL
+PASS  Invalid enabled account rejected without changing saved settings
+PASS  Missing placeholder and unsupported placeholder rejected
+PASS  Settings survive WordPress repeated sanitization
+PASS  Classic thank-you action includes QR
+PASS  Direct thank-you hook cannot reveal QR with wrong key
+PASS  Actual WooCommerce order confirmation block includes QR
+PASS  Customer on-hold HTML email hook includes QR
+PASS  Admin and other customer emails never receive QR
+PASS  Plain-text email hook has bank coordinates and no PNG
+PASS  Display switches independently suppress each location
+PASS  Disabling plugin setting revokes image links
+PASS  Customer role cannot render administration
+PASS  Known customer order needs ownership even with a correct key
+PASS  Owning customer can see their QR
+PASS  Admin settings use a nonce and WooCommerce capability
+PASS  Plugin CSS does not affect other admin screens
+PASS  Plugin CSS is loaded on its own screen
+NOTE  Native WooCommerce mail template is tested on PHP 8.3; Playground PHP 7.4 cannot render it. Plugin hook and exact text are tested on both.
+PASS  French bundled translation renders customer instructions
+Versions: WordPress 6.6.2, WooCommerce 9.6.2, PHP 7.4.33, storage posts
+Result: 54 passed, 0 failed. No email sent.

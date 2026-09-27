@@ -1,0 +1,13 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "steps": [
+    {
+      "step": "runPHP",
+      "code": "<?php file_put_contents('/wordpress/wp-content/plugins/jeytech-order-transfer-qr/dev/.test-runtime.json', json_encode(['php'=>PHP_VERSION,'iconv'=>function_exists('iconv'),'zlib'=>function_exists('gzcompress'),'ctype'=>function_exists('ctype_digit')]));"
+    }
+  ]
+}
