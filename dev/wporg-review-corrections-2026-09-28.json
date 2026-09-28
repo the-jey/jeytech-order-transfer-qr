@@ -1,0 +1,115 @@
+{
+  "verifiedAt": "2026-09-28T11:40:54.915Z",
+  "account": "jeytech",
+  "pluginName": "JeyTech Order Transfer QR for WooCommerce",
+  "slug": "jeytech-order-transfer-qr",
+  "version": "1.0.0",
+  "existingSubmissionUpdated": true,
+  "uploadHttpStatus": 200,
+  "portalReviewStatus": "Being Reviewed — This plugin is currently waiting on action from you. Please check your email for details.",
+  "archive": "/home/jey/Documents/jeytech-pluggins/wordpress-pluggins/jeytech-order-transfer-qr/dist/jeytech-order-transfer-qr.zip",
+  "sha256": "4780d4ff88a6c7da110e92a0ee4374d46964616cb937213dcb7deca0c94e9daa",
+  "sizeBytes": 78599,
+  "distributedFiles": 53,
+  "translationsExcluded": true,
+  "submittedArchiveDownloadedAndByteIdentical": true,
+  "downloadHttpStatus": 200,
+  "reviewEmailReply": "Prepared separately for the user to send in the existing thread; not sent by the agent.",
+  "ownershipVerification": "TXT wordpressorg-jeytech-verification publicly visible at jeytech.app",
+  "portalUploadConfirmation": "New version of JeyTech Order Transfer QR for WooCommerce uploaded for review.Please respond to the review email to let us know, and address any feedback that was given to you.",
+  "reviewId": "AUTOPREREVIEW OWN jeytech-order-transfer-qr/jeytech/28Sep26/T1 28Sep26/4.3 (P0TDX377200HGN)",
+  "ownershipDns": {
+    "verifiedAt": "2026-09-28T11:25:18.592641+00:00",
+    "domain": "jeytech.app",
+    "accountId": "7dc77ee764ac99765642948fad162c57",
+    "zoneId": "35c9cc717745492ffb18f126868f889d",
+    "recordId": "98488ccef5ac9a1b866f7a4e6142644b",
+    "type": "TXT",
+    "content": "wordpressorg-jeytech-verification",
+    "ttl": "automatic",
+    "checks": [
+      {
+        "resolver": "tani.ns.cloudflare.com",
+        "verificationVisible": true,
+        "existingSpfPreserved": true
+      },
+      {
+        "resolver": "ian.ns.cloudflare.com",
+        "verificationVisible": true,
+        "existingSpfPreserved": true
+      },
+      {
+        "resolver": "Google Public DNS (DoH)",
+        "verificationVisible": true,
+        "existingSpfPreserved": true
+      }
+    ]
+  },
+  "functionalChecks": {
+    "hpos": 55,
+    "classic": 54,
+    "minimum": 54
+  },
+  "functionalTotal": 163,
+  "pluginCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "scope": "All available static and experimental checks against packaged production files; Playground SQLite runtime-check limitation remains."
+  },
+  "independentQrPngsDecoded": 6,
+  "nativeUi": [
+    {
+      "locale": "en",
+      "versions": {
+        "wp": "7.1.2",
+        "wc": "11.1.2",
+        "php": "8.3.33"
+      },
+      "settingsSave": true,
+      "settingsRevoke": true,
+      "disabledRevoke": true,
+      "httpPng": true,
+      "tamperedRequestsDenied": 3,
+      "confirmations": [
+        "blocks",
+        "classic"
+      ],
+      "viewports": [
+        1440,
+        390
+      ],
+      "email": "native WC HTML, captured without sending",
+      "errors": []
+    },
+    {
+      "locale": "fr",
+      "versions": {
+        "wp": "7.1.2",
+        "wc": "11.1.2",
+        "php": "8.3.33"
+      },
+      "settingsSave": true,
+      "settingsRevoke": true,
+      "disabledRevoke": true,
+      "httpPng": true,
+      "tamperedRequestsDenied": 3,
+      "confirmations": [
+        "blocks",
+        "classic"
+      ],
+      "viewports": [
+        1440,
+        390
+      ],
+      "email": "native WC HTML, captured without sending",
+      "errors": []
+    }
+  ],
+  "languagePackSmoke": {
+    "externalPack": "PASS External WordPress French language pack and English restoration from final production files. WordPress 6.6.2, PHP 7.4.33; no early-loading notice.",
+    "withoutPack": "PASS English fallback without a language pack and English restoration from final production files. WordPress 6.6.2, PHP 7.4.33; no early-loading notice."
+  },
+  "wordpressApproval": "pending",
+  "svnPublication": "After approval only",
+  "emailReplySent": false
+}

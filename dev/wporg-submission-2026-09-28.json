@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-09-28T07:07:20.153Z",
+  "pluginName": "JeyTech Order Transfer QR for WooCommerce",
+  "version": "1.0.0",
+  "account": "jeytech",
+  "portalUrl": "https://wordpress.org/plugins/developers/add/",
+  "reviewStatus": "Awaiting Review",
+  "submittedOn": "2026-09-28",
+  "assignedSlug": "jeytech-order-transfer-qr",
+  "initialAssignedSlug": "jeytech-order-transfer-qr-for-woocommerce",
+  "slugChangeConfirmedAfterReload": true,
+  "archive": "dist/jeytech-order-transfer-qr.zip",
+  "sha256": "091b61c6a911f07b3a74ef393e61900d29a9eafc283e9f8d94749da8962fd92b",
+  "sizeBytes": 91316,
+  "submittedArchiveHttpStatus": 200,
+  "submittedArchiveDownloadedAndIdentical": true,
+  "submittedArchiveVerification": "Downloaded the submitted plugin ZIP referenced by the WordPress.org Plugin Check blueprint and compared all bytes with the prepared local ZIP.",
+  "distributedFileCount": 57,
+  "sourceCommit": "a8d1bae6a5029ae15cb3c9f01fdbfa1baf8159d9",
+  "localPluginCheck": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "functionalChecks": {
+    "hposPhp83": 55,
+    "classicPhp74": 54,
+    "minimumVersionsPhp74": 54,
+    "total": 163
+  },
+  "initialAutomatedScanning": {
+    "result": "Pass",
+    "warnings": [
+      {
+        "code": "textdomain_mismatch",
+        "detail": "The initial automatically assigned slug included -for-woocommerce.",
+        "action": "Assigned slug changed to jeytech-order-transfer-qr, matching the existing text domain. Code and ZIP unchanged."
+      }
+    ]
+  },
+  "nameAudit": "dev/name-audit-2026-09-28.json",
+  "svnPublication": "Not published; awaiting WordPress.org approval."
+}

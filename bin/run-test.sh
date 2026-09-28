@@ -18,7 +18,8 @@ rm -f "$report"
 npx wp-playground-cli run-blueprint \
 	--wp="$wp_version" --php="$php_version" --blueprint="$blueprint" \
 	--mount=dist/jeytech-order-transfer-qr:/wordpress/wp-content/plugins/jeytech-order-transfer-qr \
-	--mount=dev:/wordpress/wp-content/otqr-dev
+	--mount=dev:/wordpress/wp-content/otqr-dev \
+	--mount=languages:/wordpress/wp-content/otqr-dev-languages
 code=$?
 
 if [[ ! -f "$report" ]]; then

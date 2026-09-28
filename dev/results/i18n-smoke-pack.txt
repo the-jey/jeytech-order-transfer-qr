@@ -1,0 +1,1 @@
+PASS External WordPress French language pack and English restoration from final production files. WordPress 6.6.2, PHP 7.4.33; no early-loading notice.

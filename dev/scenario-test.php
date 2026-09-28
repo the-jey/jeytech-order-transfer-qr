@@ -133,7 +133,7 @@ try {
 		$lines[] = 'NOTE  Native WooCommerce mail template is tested on PHP 8.3; Playground PHP 7.4 cannot render it. Plugin hook and exact text are tested on both.';
 	}
 	$locale_changed = switch_to_locale( 'fr_FR' );
-	$check( 'French bundled translation renders customer instructions', $locale_changed && false !== strpos( Display::html( $order, Transfer::details( $order ) ), 'Payer par virement' ) && false !== strpos( Display::text( Transfer::details( $order ) ), 'Bénéficiaire' ) );
+	$check( 'External WordPress French language pack renders customer instructions', $locale_changed && false !== strpos( Display::html( $order, Transfer::details( $order ) ), 'Payer par virement' ) && false !== strpos( Display::text( Transfer::details( $order ) ), 'Bénéficiaire' ) );
 	if ( $locale_changed ) { restore_previous_locale(); }
 } catch ( \Throwable $error ) {
 	$check( 'Unhandled exception: ' . $error->getMessage() . ' at ' . $error->getFile() . ':' . $error->getLine(), false );

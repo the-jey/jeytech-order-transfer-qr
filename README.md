@@ -15,11 +15,12 @@ WordPress, WooCommerce and PHP run in the existing WordPress Playground toolchai
 | `npm test` | Payment, PNG and integration checks on HPOS / PHP 8.3 |
 | `npm run test:legacy` | Same checks on classic order storage / PHP 7.4 |
 | `npm run test:minimum` | WordPress 6.6.2 / WooCommerce 9.6.2 / PHP 7.4 |
-| `npm run i18n` | Generate POT and compile the bundled French catalogs |
+| `npm run test:i18n` | French external pack, English fallback without a pack and locale restoration on minimum versions |
+| `npm run i18n` | Generate POT and compile local French catalogs (excluded from the ZIP) |
 | `npm run check` | Build the ZIP and run Plugin Check static checks against its contents |
 | `npm run build` | Build `dist/jeytech-order-transfer-qr.zip` |
 
-The ZIP excludes development scripts, tests, node_modules, screenshots, Git and build artifacts. It includes the complete readable encoder source and licenses. The French catalog is bundled for manual ZIP installations too.
+The ZIP excludes development scripts, tests, node_modules, screenshots, Git and build artifacts. It includes the complete readable encoder source and licenses. Translation sources stay in Git. The distributed ZIP contains no language catalogs and relies on WordPress.org language packs. The French demo/test blueprint installs the local catalog separately in `wp-content/languages/plugins/`; this does not publish or approve a WordPress.org pack.
 
 ## Payment behavior
 
@@ -33,11 +34,11 @@ The same WooCommerce payment-specific thank-you hook is used by classic and bloc
 
 ## Review and next versions
 
-The WordPress.org submission is pending the completion of Safety Data by Brand's review. WordPress normally accepts one pending review per author. Prepare the final ZIP and screenshots, then submit with `jeytech` and set the proposed short slug if WordPress initially appends `for-woocommerce`. No SVN upload before approval.
+Version 1.0.0 was submitted to WordPress.org on 28 September 2026 with `jeytech`, after Safety Data by Brand was approved and published. At submission, the developer portal confirmed **Awaiting Review** and the assigned short slug `jeytech-order-transfer-qr`; the initial automatic `-for-woocommerce` suffix was corrected immediately. The automated scan returned **Pass**, with a text-domain warning caused by that initial slug. The submitted ZIP was downloaded from the portal's Plugin Check blueprint and is byte-for-byte identical to the prepared archive. Evidence is recorded in [the submission report](dev/wporg-submission-2026-09-28.json) and [the updated name audit](dev/name-audit-2026-09-28.json). Publish code and directory assets via SVN after approval.
 
 Planned Pro functionality remains a separate future release. Apply [the shared Pro release checklist](../PRO_RELEASE_CHECKLIST.md): EN/FR guides, matching delivery-email links, language tests, private ZIP delivery and license checks. No Pro is sold or claimed available by this free release.
 
-## Verification, 27 September 2026
+## Verification, 28 September 2026
 
 | Runtime | Storage | Functional checks |
 | --- | --- | --- |
@@ -52,3 +53,13 @@ Six PNGs were independently decoded with ZXing-C++: accented and Greek text, exa
 Browser checks use the packaged production files: EN/FR settings, nonce-protected saves, forged requests (403), revocation after reference changes and disabling, valid PNGs (200/no-store), classic and block confirmation pages, and native HTML email previews. Desktop 1440px and mobile 390px, no JavaScript errors. Successful native classic and Blocks checkouts were also submitted on a non-stock virtual demo product at EUR 19.90; stock preservation is asserted separately in the functional suites. Outgoing mail is intercepted in the demo MU helper only.
 
 Run `npm run build` before the demo servers. `node dev/capture-ui.mjs` performs the UI checks and six real screenshots, `node dev/checkout-ui.mjs` checks the two checkout types, and `node dev/assets-src/render.mjs` renders the original HTML/SVG branding. Geist font source and OFL license are included in the development assets only. Directory assets are prepared in `.wordpress-org/`; they are excluded from the plugin ZIP and are uploaded separately to SVN after approval.
+
+## Review corrections, 28 September 2026
+
+The review requested proof of JeyTech ownership and removal of translation catalogs from the distributed package. A separate TXT record `wordpressorg-jeytech-verification` is publicly visible at the root of `jeytech.app`, verified against both authoritative nameservers and Google Public DNS; the existing SPF record is preserved. The name, slug, author account and version 1.0.0 stay unchanged.
+
+The corrected ZIP contains **53 files**, SHA-256 `4780d4ff88a6c7da110e92a0ee4374d46964616cb937213dcb7deca0c94e9daa`. Catalogs and the custom translation fallback have been removed from production. Translation sources remain in Git and are mounted outside the plugin for development. WordPress loads external packs normally; French without a pack falls back to English. Both behaviors and English locale restoration pass on WordPress 6.6.2/PHP 7.4, without early-loading notices.
+
+The corrected production files pass all 163 integration checks, all available Plugin Check static checks (zero errors/warnings), independent decoding of six QR PNGs, and EN/FR browser checks. Fresh screenshots match the six existing site images byte-for-byte. Native WooCommerce mail is captured locally without sending. The code has not been tested with a real banking app or transfer.
+
+The corrected archive has been uploaded to the **existing submission** and downloaded from the portal's Plugin Check blueprint: byte-for-byte identical to the tested ZIP. The portal still reports **Being Reviewed**, waiting for the author's reply in the original review email thread. The user will send that reply; it has not been sent by this work. See [the correction and upload proof](dev/wporg-review-corrections-2026-09-28.json). No SVN publication until approval. French translations can be imported through Translate WordPress after publication; validation is still required for a public language pack.

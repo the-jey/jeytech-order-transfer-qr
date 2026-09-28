@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "slug": "jeytech-order-transfer-qr",
-  "sha256": "091b61c6a911f07b3a74ef393e61900d29a9eafc283e9f8d94749da8962fd92b",
-  "size": 91316,
+  "sha256": "4780d4ff88a6c7da110e92a0ee4374d46964616cb937213dcb7deca0c94e9daa",
+  "size": 78599,
   "sourceFilesIdentical": true,
-  "fileCount": 57,
+  "fileCount": 53,
   "files": [
     "THIRD_PARTY.txt",
     "src/Display.php",
@@ -58,10 +58,6 @@
     "uninstall.php",
     "assets/admin.css",
     "readme.txt",
-    "languages/jeytech-order-transfer-qr-fr_FR.l10n.php",
-    "languages/jeytech-order-transfer-qr.pot",
-    "languages/jeytech-order-transfer-qr-fr_FR.po",
-    "languages/jeytech-order-transfer-qr-fr_FR.mo",
     "jeytech-order-transfer-qr.php"
   ],
   "functionalChecks": {
@@ -79,6 +75,11 @@
   ],
   "potEntries": 54,
   "screenshots": 6,
-  "reviewStatus": "Prepared, not submitted: Safety Data by Brand review still pending.",
-  "bankingAppTests": "Not performed; independent PNG decoding verifies bytes only."
+  "reviewStatus": "Being Reviewed; corrected ZIP uploaded on 2026-09-28. Reply in the existing review email thread remains for the user.",
+  "bankingAppTests": "Not performed; independent PNG decoding verifies bytes only.",
+  "translationDistribution": "WordPress.org language packs; catalogs excluded from the plugin ZIP. Local French pack installed separately for demos/tests.",
+  "externalFrenchPackVerified": true,
+  "englishFallbackWithoutPackVerified": true,
+  "earlyLoadingNotices": 0,
+  "reviewCorrections": "wporg-review-corrections-2026-09-28.json"
 }

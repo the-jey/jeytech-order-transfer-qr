@@ -27,26 +27,12 @@
       }
     },
     {
-      "step": "mkdir",
-      "path": "/wordpress/wp-content/languages/plugins"
-    },
-    {
-      "step": "cp",
-      "fromPath": "/wordpress/wp-content/otqr-dev-languages/jeytech-order-transfer-qr-fr_FR.mo",
-      "toPath": "/wordpress/wp-content/languages/plugins/jeytech-order-transfer-qr-fr_FR.mo"
-    },
-    {
-      "step": "cp",
-      "fromPath": "/wordpress/wp-content/otqr-dev-languages/jeytech-order-transfer-qr-fr_FR.l10n.php",
-      "toPath": "/wordpress/wp-content/languages/plugins/jeytech-order-transfer-qr-fr_FR.l10n.php"
-    },
-    {
       "step": "activatePlugin",
       "pluginPath": "jeytech-order-transfer-qr/jeytech-order-transfer-qr.php"
     },
     {
-      "step": "wp-cli",
-      "command": "wp eval-file /wordpress/wp-content/otqr-dev/scenario-test.php"
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-content/otqr-dev/i18n-smoke.php';"
     }
   ]
 }

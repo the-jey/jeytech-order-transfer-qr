@@ -5,14 +5,15 @@
   "description": "Outillage de développement (non livré dans le ZIP).",
   "license": "GPL-2.0-or-later",
   "scripts": {
-    "dev": "wp-playground-cli server --blueprint=dev/blueprint.json --mount=dist/jeytech-order-transfer-qr:/wordpress/wp-content/plugins/jeytech-order-transfer-qr --mount=dev:/wordpress/wp-content/otqr-dev --port=9406 --wp=7.1.2 --php=8.3",
-    "dev:fr": "wp-playground-cli server --blueprint=dev/blueprint-fr.json --mount=dist/jeytech-order-transfer-qr:/wordpress/wp-content/plugins/jeytech-order-transfer-qr --mount=dev:/wordpress/wp-content/otqr-dev --port=9407 --wp=7.1.2 --php=8.3",
+    "dev": "wp-playground-cli server --blueprint=dev/blueprint.json --mount=dist/jeytech-order-transfer-qr:/wordpress/wp-content/plugins/jeytech-order-transfer-qr --mount=dev:/wordpress/wp-content/otqr-dev --mount=languages:/wordpress/wp-content/otqr-dev-languages --port=9406 --wp=7.1.2 --php=8.3",
+    "dev:fr": "wp-playground-cli server --blueprint=dev/blueprint-fr.json --mount=dist/jeytech-order-transfer-qr:/wordpress/wp-content/plugins/jeytech-order-transfer-qr --mount=dev:/wordpress/wp-content/otqr-dev --mount=languages:/wordpress/wp-content/otqr-dev-languages --port=9407 --wp=7.1.2 --php=8.3",
     "test": "bash bin/run-test.sh hpos",
     "test:legacy": "bash bin/run-test.sh posts",
     "i18n": "wp-playground-cli run-blueprint --blueprint=dev/i18n.json --mount=.:/wordpress/wp-content/plugins/jeytech-order-transfer-qr",
     "check": "bash bin/build-zip.sh > /dev/null && wp-playground-cli run-blueprint --blueprint=dev/plugin-check.json --mount=dist/jeytech-order-transfer-qr:/wordpress/wp-content/plugins/jeytech-order-transfer-qr --mount=dev:/wordpress/wp-content/otqr-dev && cat dev/.plugin-check.txt && head -n 1 dev/.plugin-check.txt | grep -Fxq 'Plugin Check — 0 erreur(s), 0 avertissement(s)'",
     "build": "bash bin/build-zip.sh",
-    "test:minimum": "bash bin/run-test.sh minimum"
+    "test:minimum": "bash bin/run-test.sh minimum",
+    "test:i18n": "bash bin/run-i18n-test.sh"
   },
   "devDependencies": {
     "@wp-playground/cli": "3.1.55",
