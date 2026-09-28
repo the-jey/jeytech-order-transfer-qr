@@ -1,0 +1,82 @@
+{
+  "verifiedAt": "2026-09-28T12:05:23.537027+00:00",
+  "plugin": "jeytech-order-transfer-qr",
+  "scope": "WordPress.org Free ZIP builder; no runtime change",
+  "builderSha256": "d00e3ef99818b8677976234d506486d11860d8910f5b153e14b7ef8e5ae3e212",
+  "cleanBuildScenarios": 2,
+  "rejectedBuildScenarios": 13,
+  "scenarioCount": 15,
+  "allScenariosPassed": true,
+  "scenarios": [
+    {
+      "name": "clean",
+      "passed": true
+    },
+    {
+      "name": "local-catalogs-excluded",
+      "passed": true
+    },
+    {
+      "name": "catalog-po",
+      "passed": true
+    },
+    {
+      "name": "catalog-pot",
+      "passed": true
+    },
+    {
+      "name": "catalog-mo",
+      "passed": true
+    },
+    {
+      "name": "catalog-l10n.php",
+      "passed": true
+    },
+    {
+      "name": "catalog-PO",
+      "passed": true
+    },
+    {
+      "name": "catalog-POT",
+      "passed": true
+    },
+    {
+      "name": "catalog-MO",
+      "passed": true
+    },
+    {
+      "name": "catalog-L10N.PHP",
+      "passed": true
+    },
+    {
+      "name": "empty-language-directory",
+      "passed": true
+    },
+    {
+      "name": "nested-language-directory",
+      "passed": true
+    },
+    {
+      "name": "mixed-case-language-directory",
+      "passed": true
+    },
+    {
+      "name": "catalog-symlink",
+      "passed": true
+    },
+    {
+      "name": "stale-archive",
+      "passed": true
+    }
+  ],
+  "cleanArchiveFilesIdenticalToExistingRelease": true,
+  "fileCount": 53,
+  "existingReleaseArchivePreserved": true,
+  "existingReleaseArchiveSha256": "4780d4ff88a6c7da110e92a0ee4374d46964616cb937213dcb7deca0c94e9daa",
+  "textDomainMatchesSlug": true,
+  "manualTranslationLoadingOrCustomPathAbsent": true,
+  "sourcesRetainedInGit": true,
+  "privateProCatalogsOutsideGuardScope": true,
+  "existingSourceCommit": "becfd2a1ab80e9b6c4bedaa4cb49276a75e1b823",
+  "reproduceFromParent": "python3 tools/wporg-release/verify-language-packaging.py --plugin jeytech-order-transfer-qr"
+}

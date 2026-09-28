@@ -16,8 +16,10 @@ fi
 rm -rf dist
 mkdir -p "dist/$slug"
 rsync -a --exclude-from=.distignore ./ "dist/$slug/"
-if find "dist/$slug" -type f \( -name '*.po' -o -name '*.pot' -o -name '*.mo' -o -name '*.l10n.php' \) -print -quit | grep -q .; then
-	echo "✗ Les traductions doivent être distribuées par les packs de langue WordPress, hors du ZIP." >&2
+# Mandatory for free WordPress.org releases, including catalogs outside languages/.
+translation_entry="$(find "dist/$slug" \( -type d -iname 'languages' -o -iname '*.po' -o -iname '*.pot' -o -iname '*.mo' -o -iname '*.l10n.php' \) -print -quit)"
+if [[ -n "$translation_entry" ]]; then
+	echo "✗ Archive WordPress.org refusée : $translation_entry. Les traductions doivent être distribuées par les packs de langue WordPress, hors du ZIP." >&2
 	exit 1
 fi
 find "dist/$slug" -type d -exec chmod 755 {} +
