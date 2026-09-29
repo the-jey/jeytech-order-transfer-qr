@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-09-29T12:32:28.984612+00:00",
+  "plugin": "jeytech-order-transfer-qr",
+  "catalogs": [
+    {
+      "file": "languages/jeytech-order-transfer-qr-fr_FR.po",
+      "entries": 54,
+      "changes": [
+        {
+          "source": "Choose the account explicitly. Reordering accounts keeps your selection; changing the beneficiary, IBAN or BIC requires a new selection.",
+          "before": "Choisissez explicitement le compte. Réordonner les comptes conserve votre sélection ; modifier le bénéficiaire, l’IBAN ou le BIC nécessite de sélectionner à nouveau le compte.",
+          "after": "Choisissez explicitement le compte. Réordonner les comptes conserve votre sélection ; modifier le bénéficiaire, l’IBAN ou le BIC nécessite de sélectionner à nouveau le compte."
+        },
+        {
+          "source": "Example only: EUR 19.90, reference DEMO-1042 with your format. Do not confirm this transfer.",
+          "before": "Exemple uniquement : 19,90 EUR, référence DEMO-1042 selon votre format. Ne confirmez pas ce virement.",
+          "after": "Exemple uniquement : 19,90 EUR, référence DEMO-1042 selon votre format. Ne confirmez pas ce virement."
+        },
+        {
+          "source": "Keep {order_number}. Example: SHOP-{order_number}. The final reference is limited to 140 characters and the full QR payload to 331 bytes.",
+          "before": "Conservez {order_number}. Exemple : BOUTIQUE-{order_number}. La référence finale est limitée à 140 caractères et l’ensemble des données du QR à 331 octets.",
+          "after": "Conservez {order_number}. Exemple : BOUTIQUE-{order_number}. La référence finale est limitée à 140 caractères et l’ensemble des données du QR à 331 octets."
+        },
+        {
+          "source": "The amount must be between EUR 0.01 and EUR 999999999.99.",
+          "before": "Le montant doit être compris entre 0,01 EUR et 999 999 999,99 EUR.",
+          "after": "Le montant doit être compris entre 0,01 EUR et 999 999 999,99 EUR."
+        },
+        {
+          "source": "You can also enter these details manually. This QR prepares the transfer; it does not confirm payment or change the order status.",
+          "before": "Vous pouvez aussi saisir ces coordonnées manuellement. Ce QR prépare le virement ; il ne confirme pas le paiement et ne modifie pas l’état de la commande.",
+          "after": "Vous pouvez aussi saisir ces coordonnées manuellement. Ce QR prépare le virement ; il ne confirme pas le paiement et ne modifie pas l’état de la commande."
+        }
+      ],
+      "untranslated": 0,
+      "fuzzy": 0,
+      "placeholdersAndHtml": "passed",
+      "uniqueOriginals": 54,
+      "obsolete": 0
+    }
+  ],
+  "newVersion": null
+}
