@@ -1,0 +1,56 @@
+{
+  "submittedAt": "2026-10-05T12:45:46.630Z",
+  "account": "jeytech",
+  "requestType": "Editor Request",
+  "posts": [
+    {
+      "id": "post-72821",
+      "classes": "post post-72821 type-post status-publish format-aside hentry category-uncategorized tag-editor-requests tag-fr_fr post_format-post-format-aside p2_resolved-unresolved mentions-jeytech author-jeytech state-unresolved",
+      "text": "JeyTech\nNow\n@jeytech\nPTE request for JeyTech Order Transfer QR — French (fr_FR)\n\nHello Polyglots,\n\nI am the author of JeyTech Order Transfer QR for WooCommerce, using the WordPress.org account @jeytech:\n\nJeyTech Order Transfer QR for WooCommerce\n\nThe plugin was approved and version 1.0.0 is now published. I would like to maintain its French translations. Could the French team review the suggestions and consider granting the Project Translation Editor role for this additional project?\n\n#fr_FR — @jeytech\n\nAll 100 active strings have French suggestions: 54 code strings and 46 Stable Readme strings. The remote exports contain no untranslated entries. The exported suggestions match the reviewed local PO files; placeholders, the {order_number} token and readme HTML have been checked. French language-pack behavior and English fallback were tested separately from the Free ZIP, which contains no translation catalogs.\n\nThe translations were prepared with automated assistance. These technical checks do not replace the French team’s language review. I will address any terminology or typography feedback before approval.\n\nTranslation projects:\n\nCode: https://translate.wordpress.org/projects/wp-plugins/jeytech-order-transfer-qr/stable/fr/default/?filters%5Bstatus%5D=waiting&filters%5Buser_login%5D=jeytech\nReadme: https://translate.wordpress.org/projects/wp-plugins/jeytech-order-transfer-qr/stable-readme/fr/default/?filters%5Bstatus%5D=waiting&filters%5Buser_login%5D=jeytech\n\nThis request covers only the newly published Order Transfer QR project; the three previous JeyTech projects were requested separately on 29 September.\n\nThank you for your time and guidance.\n\n#editor-requests\n\nReply\nFollow\nMark as done",
+      "links": [
+        {
+          "text": "Now",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/"
+        },
+        {
+          "text": "Scroll",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/"
+        },
+        {
+          "text": "# PTE request for JeyTech…",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/"
+        },
+        {
+          "text": "Reply",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/#respond"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "classes": "o2-post",
+      "text": "JeyTech\nNow\n@jeytech\nPTE request for JeyTech Order Transfer QR — French (fr_FR)\n\nHello Polyglots,\n\nI am the author of JeyTech Order Transfer QR for WooCommerce, using the WordPress.org account @jeytech:\n\nJeyTech Order Transfer QR for WooCommerce\n\nThe plugin was approved and version 1.0.0 is now published. I would like to maintain its French translations. Could the French team review the suggestions and consider granting the Project Translation Editor role for this additional project?\n\n#fr_FR — @jeytech\n\nAll 100 active strings have French suggestions: 54 code strings and 46 Stable Readme strings. The remote exports contain no untranslated entries. The exported suggestions match the reviewed local PO files; placeholders, the {order_number} token and readme HTML have been checked. French language-pack behavior and English fallback were tested separately from the Free ZIP, which contains no translation catalogs.\n\nThe translations were prepared with automated assistance. These technical checks do not replace the French team’s language review. I will address any terminology or typography feedback before approval.\n\nTranslation projects:\n\nCode: https://translate.wordpress.org/projects/wp-plugins/jeytech-order-transfer-qr/stable/fr/default/?filters%5Bstatus%5D=waiting&filters%5Buser_login%5D=jeytech\nReadme: https://translate.wordpress.org/projects/wp-plugins/jeytech-order-transfer-qr/stable-readme/fr/default/?filters%5Bstatus%5D=waiting&filters%5Buser_login%5D=jeytech\n\nThis request covers only the newly published Order Transfer QR project; the three previous JeyTech projects were requested separately on 29 September.\n\nThank you for your time and guidance.\n\n#editor-requests\n\nReply\nFollow\nMark as done",
+      "links": [
+        {
+          "text": "Now",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/"
+        },
+        {
+          "text": "Scroll",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/"
+        },
+        {
+          "text": "# PTE request for JeyTech…",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/"
+        },
+        {
+          "text": "Reply",
+          "url": "https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/#respond"
+        }
+      ]
+    }
+  ],
+  "notices": [],
+  "editorCleared": true,
+  "moderationExpected": true
+}

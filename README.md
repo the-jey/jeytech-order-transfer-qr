@@ -36,6 +36,14 @@ Hosted email images use a signed `admin-post.php` URL. The signature binds order
 
 The same WooCommerce payment-specific thank-you hook is used by classic and block order confirmation pages. Customer on-hold HTML emails get a hosted PNG and all readable payment details; plain-text emails keep the details without an image. The plugin sends no additional email and performs no bank or external QR request.
 
+## WordPress.org publication — 5 October 2026
+
+Version **1.0.0** is published at https://wordpress.org/plugins/jeytech-order-transfer-qr/ through SVN revision **3728844**, with `trunk/`, `tags/1.0.0/` and all ten directory assets. The official downloadable ZIP contains 53 files byte-identical to the approved submission; all ten public images are byte-identical to the local assets.
+
+Fresh pre-publication checks: 163 functional tests passed (55 HPOS, 54 classic, 54 minimum), Plugin Check static checks returned zero errors/warnings, 15 language-packaging scenarios passed, and external French pack / English fallback tests passed. Evidence: [publication report](dev/wporg-publication-2026-10-05.json).
+
+Follow-up completed on 5 October: JeyTech EN/FR pages now link to the public Free plugin; the Pro companion is on sale after passing its release checks. Translate WordPress initially returned 404 while the new project was being created, then accepted **54 code and 46 readme translations**, all Waiting. Remote exports match the local PO files and contain no untranslated entries. [French review/PTE request](https://make.wordpress.org/polyglots/2026/10/05/pte-request-for-jeytech-2/) submitted; no public French language pack is claimed until editorial approval. See [translation evidence](dev/wporg-translations-2026-10-05.json).
+
 ## Review and next versions
 
 Version 1.0.0 was submitted to WordPress.org on 28 September 2026 with `jeytech`, after Safety Data by Brand was approved and published. At submission, the developer portal confirmed **Awaiting Review** and the assigned short slug `jeytech-order-transfer-qr`; the initial automatic `-for-woocommerce` suffix was corrected immediately. The automated scan returned **Pass**, with a text-domain warning caused by that initial slug. The submitted ZIP was downloaded from the portal's Plugin Check blueprint and is byte-for-byte identical to the prepared archive. Evidence is recorded in [the submission report](dev/wporg-submission-2026-09-28.json) and [the updated name audit](dev/name-audit-2026-09-28.json). Publish code and directory assets via SVN after approval.

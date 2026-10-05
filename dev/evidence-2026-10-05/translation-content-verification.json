@@ -1,0 +1,12 @@
+[
+  {
+    "branch": "stable",
+    "entries": 54,
+    "localAndRemoteTranslationsIdentical": true
+  },
+  {
+    "branch": "stable-readme",
+    "entries": 46,
+    "localAndRemoteTranslationsIdentical": true
+  }
+]

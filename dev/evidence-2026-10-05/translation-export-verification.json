@@ -1,0 +1,32 @@
+[
+  {
+    "branch": "stable",
+    "status": "waiting",
+    "entries": 54
+  },
+  {
+    "branch": "stable",
+    "status": "untranslated",
+    "entries": 0
+  },
+  {
+    "branch": "stable",
+    "status": "current",
+    "entries": 0
+  },
+  {
+    "branch": "stable-readme",
+    "status": "waiting",
+    "entries": 46
+  },
+  {
+    "branch": "stable-readme",
+    "status": "untranslated",
+    "entries": 0
+  },
+  {
+    "branch": "stable-readme",
+    "status": "current",
+    "entries": 0
+  }
+]

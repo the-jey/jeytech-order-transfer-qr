@@ -1,0 +1,5 @@
+
+> jeytech-wporg-translations@1.0.0 import
+> node import.mjs --plugin jeytech-order-transfer-qr --locale fr --readme ../../jeytech-order-transfer-qr/dev/translations/stable-readme-fr_FR.po
+
+Readme: import terminé (waiting, 46 translations were added). https://translate.wordpress.org/projects/wp-plugins/jeytech-order-transfer-qr/stable-readme/fr/default/

@@ -1,0 +1,5 @@
+
+> jeytech-wporg-translations@1.0.0 import
+> node import.mjs --plugin jeytech-order-transfer-qr --locale fr --code ../../jeytech-order-transfer-qr/languages/jeytech-order-transfer-qr-fr_FR.po
+
+Extension: import terminé (waiting, 54 translations were added). https://translate.wordpress.org/projects/wp-plugins/jeytech-order-transfer-qr/stable/fr/default/

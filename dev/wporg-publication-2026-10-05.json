@@ -1,0 +1,74 @@
+{
+  "verifiedAt": "2026-10-05T12:08:35.314776+00:00",
+  "slug": "jeytech-order-transfer-qr",
+  "version": "1.0.0",
+  "svnRevision": 3728844,
+  "publicUrl": "https://wordpress.org/plugins/jeytech-order-transfer-qr/",
+  "downloadUrl": "https://downloads.wordpress.org/plugin/jeytech-order-transfer-qr.1.0.0.zip",
+  "officialZipSha256": "8005f513a63de6137cbfaacb1b75fa18e6c87b5e24126b7290ac9c9333229766",
+  "officialZipFiles": 53,
+  "officialFilesIdenticalToApprovedSubmission": true,
+  "assets": {
+    "icon-128x128.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/icon-128x128.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "banner-1544x500.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/banner-1544x500.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "screenshot-1.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/screenshot-1.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "screenshot-4.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/screenshot-4.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "screenshot-5.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/screenshot-5.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "screenshot-2.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/screenshot-2.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "screenshot-6.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/screenshot-6.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "screenshot-3.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/screenshot-3.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "banner-772x250.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/banner-772x250.png?rev=3728844",
+      "byteIdentical": true
+    },
+    "icon-256x256.png": {
+      "url": "https://ps.w.org/jeytech-order-transfer-qr/assets/icon-256x256.png?rev=3728844",
+      "byteIdentical": true
+    }
+  },
+  "functionalChecks": {
+    "hpos": 55,
+    "classic": 54,
+    "minimum": 54,
+    "failed": 0
+  },
+  "pluginCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "scope": "available static checks"
+  },
+  "languagePackagingScenarios": 15,
+  "externalFrenchPackAndEnglishFallbackTested": true,
+  "siteUpdate": "EN/FR published and verified on Sandbox and Live; official WordPress.org link available",
+  "frenchPublicLanguagePack": "100 suggestions imported as Waiting; editorial approval and public pack pending",
+  "frenchTranslationImport": {
+    "attempted": true,
+    "completed": true,
+    "reason": "Initial project 404 during creation; later imported 54 code and 46 readme suggestions as Waiting",
+    "proof": "wporg-translations-2026-10-05.json"
+  }
+}
